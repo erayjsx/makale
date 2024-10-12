@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    font-family: "Inter Tight", sans-serif !important;
+}
+
+.modal-container,.modal-overlay{position:fixed;top:0;right:0;bottom:0;left:0}.hidden{display:none}.modal-container{z-index:50;display:flex;align-items:center;justify-content:center}.modal-overlay{z-index:20!important;width:100%;background-color:#000;opacity:0;transition:opacity .3s;user-select:none}.modal-wrapper{display:flex;z-index:20;flex-direction:column;width:100%;max-width:28rem;max-height:100vh;margin:1.25rem;overflow:auto;-webkit-overflow-scrolling:touch;transition:.3s;transform:translateY(1.25rem);background-color:#fff;border-radius:.375rem;box-shadow:0 10px 15px rgba(0,0,0,.1);opacity:0}.modal-header{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.5rem;border-bottom-width:1px}.modal-title{font-size:1.3rem;font-weight:600}.modal-close{margin-left:auto;color:#4a5568;transition:color 150ms ease-in-out}.modal-close:focus,.modal-close:hover{color:#000}.modal-body{position:relative;flex-grow:1;height:100%;padding:1.25rem;overflow-x:hidden;overflow-y:auto}.opacity-0{opacity:0}.opacity-50{opacity:.5}.opacity-100{opacity:1}.translate-y-0{transform:translateY(0)}.translate-y-5{transform:translateY(1.25rem)}
+
+.search-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.search-form button:hover {
+    background-color: #000000;
+    filter: grayscale(0%);
+}
+.post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.post h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+.post p {
+    margin: 0 0 10px;
+    color: #555;
+}
+.post a {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #4b4b4d;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.post a:hover {
+    background-color: #ffffff;
+}
